@@ -21,7 +21,7 @@ pip install opencv-python mediapipe pandas numpy scikit-learn pyautogui
 1. Pastikan dataset `hand_coordinate.csv` tersedia di direktori yang sama dengan skrip.
 2. Jalankan program dengan perintah:
    ```bash
-   python main.py
+   python control_game_knn.py
    ```
 3. Program akan membuka kamera dan menampilkan deteksi tangan secara real-time.
 4. Lakukan gerakan tangan untuk mengontrol permainan!
