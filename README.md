@@ -8,6 +8,7 @@ Dengan menggunakan **hand landmarks** yang dideteksi oleh **MediaPipe Hands**, p
 - **Down (Rolling)** → ⬇️ (panah bawah)
 - **Left (Kiri)** → ⬅️ (panah kiri)
 - **Right (Kanan)** → ➡️ (panah kanan)
+<img width="309" alt="image" src="https://github.com/user-attachments/assets/c900edd3-0f1f-4301-92a4-1b041a03ac25" />
 
 ## 🔧 Requirements
 Pastikan Anda memiliki **Python 3.7+** dan menginstal dependensi berikut:
@@ -15,13 +16,6 @@ Pastikan Anda memiliki **Python 3.7+** dan menginstal dependensi berikut:
 pip install opencv-python mediapipe pandas numpy scikit-learn pyautogui
 ```
 
-## 📂 Dataset
-Gunakan dataset **hand_coordinate.csv** yang berisi koordinat tangan dari MediaPipe serta label gerakannya.
-Struktur dataset:
-```
-user, sex, frame, hand, distance, x1, y1, z1, ..., x21, y21, z21, label
-```
-Kolom **user, sex, frame, hand, distance** akan dihapus karena tidak diperlukan dalam proses klasifikasi.
 
 ## 🚀 How to Run
 1. Pastikan dataset `hand_coordinate.csv` tersedia di direktori yang sama dengan skrip.
@@ -43,12 +37,12 @@ Kolom **user, sex, frame, hand, distance** akan dihapus karena tidak diperlukan 
 ```
 Control-Game-By-Hand-Gesture-Using-KNN/
 │── hand_coordinate.csv  # Dataset koordinat tangan
-│── main.py              # Script utama untuk deteksi dan kontrol
+│── control_game_knn.py              # Script utama untuk deteksi dan kontrol
 │── README.md            # Dokumentasi proyek ini
 ```
 
 
 
 ---
-Dibuat dengan ❤️ oleh vnyhc
+Dibuat dengan ❤️ oleh vnyhc and team
 
