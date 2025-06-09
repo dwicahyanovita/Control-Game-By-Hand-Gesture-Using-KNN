@@ -1,6 +1,9 @@
 # Control Game By Hand Gesture Using KNN
 
 ## 📌 Overview
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9afd9cdc-35ac-40f1-9907-23f6702cfdfe" />
+
+
 Proyek ini menggunakan **MediaPipe** untuk mendeteksi gerakan tangan dan **K-Nearest Neighbors (KNN)** sebagai model klasifikasi untuk mengenali gerakan tangan yang digunakan dalam mengontrol permainan menggunakan keyboard.
 
 Dengan menggunakan **hand landmarks** yang dideteksi oleh **MediaPipe Hands**, program ini akan mengonversi gerakan tangan menjadi tombol keyboard, seperti:
@@ -8,7 +11,7 @@ Dengan menggunakan **hand landmarks** yang dideteksi oleh **MediaPipe Hands**, p
 - **Down (Rolling)** → ⬇️ (panah bawah)
 - **Left (Kiri)** → ⬅️ (panah kiri)
 - **Right (Kanan)** → ➡️ (panah kanan)
-<img width="309" alt="image" src="https://github.com/user-attachments/assets/c900edd3-0f1f-4301-92a4-1b041a03ac25" />
+<img width="306" alt="image" src="https://github.com/user-attachments/assets/c900edd3-0f1f-4301-92a4-1b041a03ac25" />
 
 ## 🔧 Requirements
 Pastikan Anda memiliki **Python 3.7+** dan menginstal dependensi berikut:
