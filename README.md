@@ -47,5 +47,5 @@ Control-Game-By-Hand-Gesture-Using-KNN/
 
 
 ---
-Made with ❤️ by Dwi Cahya Novita and team.
+-- by Dwi Cahya Novita and team.
 
